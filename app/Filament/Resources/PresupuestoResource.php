@@ -19,6 +19,7 @@ class PresupuestoResource extends Resource
 {
     protected static ?string $model = Presupuesto::class;
 
+    protected static ?string $navigationGroup = 'Finanzas';
     protected static ?string $navigationIcon = 'heroicon-o-chart-pie';
 
     public static function form(Form $form): Form

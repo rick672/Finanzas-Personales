@@ -21,7 +21,10 @@ class CategoriaResource extends Resource
 {
     protected static ?string $model = Categoria::class;
 
+    protected static ?string $navigationGroup = 'Gestión';
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
+    // protected static ?int $navigationSort = 2;
+
 
     public static function form(Form $form): Form
     {

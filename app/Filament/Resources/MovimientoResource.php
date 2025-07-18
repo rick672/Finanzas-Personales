@@ -20,6 +20,7 @@ class MovimientoResource extends Resource
 {
     protected static ?string $model = Movimiento::class;
 
+    protected static ?string $navigationGroup = 'Finanzas';
     protected static ?string $navigationIcon = 'heroicon-o-currency-dollar';
 
     public static function form(Form $form): Form
