@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\MovimientoResource\Pages;
+namespace App\Filament\Resources\PresupuestoResource\Pages;
 
-use App\Filament\Resources\MovimientoResource;
+use App\Filament\Resources\PresupuestoResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListMovimientos extends ListRecords
+class ListPresupuestos extends ListRecords
 {
-    protected static string $resource = MovimientoResource::class;
+    protected static string $resource = PresupuestoResource::class;
 
     protected function getHeaderActions(): array
     {

@@ -13,7 +13,10 @@ class ListCategorias extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
+            Actions\CreateAction::make()
+                ->label('Nuevo')
+                ->color('success')
+                ->icon('heroicon-o-plus'),
         ];
     }
 }
